@@ -7,6 +7,7 @@ package com.powernode.cas;
  *这是CAS操作
  *测试一下不同位置会不会有冲突
  我来试一下合并
+ 再测试一下
  */
 public class CASTest {
     public static void main(String[] args) {
