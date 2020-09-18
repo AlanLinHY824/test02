@@ -8,6 +8,7 @@ package com.powernode.cas;
  *测试一下不同位置会不会有冲突
  我来试一下合并
  再测试一下
+ 测试一下不同文件的冲突
  */
 public class CASTest {
     public static void main(String[] args) {
