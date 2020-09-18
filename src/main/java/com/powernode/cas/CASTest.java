@@ -6,6 +6,7 @@ package com.powernode.cas;
  * @Date 2020/9/17
  *这是CAS操作
  *测试一下不同位置会不会有冲突
+ 我来试一下合并
  */
 public class CASTest {
     public static void main(String[] args) {
