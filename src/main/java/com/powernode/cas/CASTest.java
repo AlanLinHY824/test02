@@ -20,6 +20,7 @@ public class CASTest {
         }
     }
 }
+//本地修改了这里
 class CASCounter{
     volatile private long value;
 
