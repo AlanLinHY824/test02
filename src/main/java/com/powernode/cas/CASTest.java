@@ -4,7 +4,7 @@ package com.powernode.cas;
  * @Author AlanLin
  * @Description
  * @Date 2020/9/17
- * 这是
+ *这是CAS操作
  */
 public class CASTest {
     public static void main(String[] args) {
