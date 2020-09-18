@@ -37,7 +37,7 @@ class CASCounter{
             }
         }
     }
-    //自增的方法01
+    //自增的方法
     public long increatementAndGet(){
         long oldValue=value;
         long newValue=value+1;
