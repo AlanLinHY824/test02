@@ -4,13 +4,6 @@ package com.powernode.cas;
  * @Author AlanLin
  * @Description
  * @Date 2020/9/17
- *这是CAS操作
- *测试一下不同位置会不会有冲突
- 我来试一下合并
- 再测试一下
- 测试一下不同文件的冲突
- 修改1
- 修改2
  */
 public class CASTest {
     public static void main(String[] args) {
@@ -26,7 +19,7 @@ public class CASTest {
         }
     }
 }
-//本地修改了这里
+
 class CASCounter{
     volatile private long value;
 
@@ -45,7 +38,7 @@ class CASCounter{
             }
         }
     }
-    //自增的方法
+
     public long increatementAndGet(){
         long oldValue=value;
         long newValue=value+1;
